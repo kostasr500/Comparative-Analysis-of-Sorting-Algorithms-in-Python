@@ -4,9 +4,9 @@ This is the code from my bachelor's thesis. The idea was to compare how 30+ sort
 
 ## Files
 
-**sort.py** — the main script. Contains all the sorting algorithms plus the benchmarking logic: timing each run, tracking peak memory with tracemalloc, handling timeouts for algorithms that take too long (like Bubble Sort on 1M elements), and raising the recursion limit for the more recursive algorithms.
-**merge_data.py** — each benchmark run saves its own CSV file. This script collects all of them and merges everything into one clean dataset.
-**charts.py** — takes the merged dataset and generates comparison charts (time and memory, per algorithm) using matplotlib.
+- **sort.py** — the main script. Contains all the sorting algorithms plus the benchmarking logic: timing each run, tracking peak memory with tracemalloc, handling timeouts for algorithms that take too long (like Bubble Sort on 1M elements), and raising the recursion limit for the more recursive algorithms.
+- **merge_data.py** — each benchmark run saves its own CSV file. This script collects all of them and merges everything into one clean dataset.
+- **charts.py** — takes the merged dataset and generates comparison charts (time and memory, per algorithm) using matplotlib.
 
 ## How it works
 
