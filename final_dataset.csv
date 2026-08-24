@@ -1,0 +1,433 @@
+Algorithm,Array Size,Input Case,Time (seconds),Memory (KB)
+Bitonic Sort,1000,Best,0.074735,10.02
+Bitonic Sort,1000,Random,0.078597,10.02
+Bitonic Sort,1000,Worst,0.058812,10.02
+Bitonic Sort,10000,Best,1.211841,178.12
+Bitonic Sort,10000,Random,1.2493,178.12
+Bitonic Sort,10000,Worst,1.221883,178.12
+Bitonic Sort,100000,Best,13.384195,1267
+Bitonic Sort,100000,Random,14.131827,1267
+Bitonic Sort,100000,Worst,13.547236,1267
+Bitonic Sort,1000000,Best,141.433958,9595.78
+Bitonic Sort,1000000,Random,143.607538,9595.78
+Bitonic Sort,1000000,Worst,142.382926,9595.78
+Block Sort,1000,Best,0.037022,16.05
+Block Sort,1000,Random,0.038111,16.05
+Block Sort,1000,Worst,0.031514,16.05
+Block Sort,10000,Best,0.237952,82.52
+Block Sort,10000,Random,0.26321,82.52
+Block Sort,10000,Worst,0.234237,82.52
+Block Sort,100000,Best,3.485004,1265.64
+Block Sort,100000,Random,4.602736,1265.64
+Block Sort,100000,Worst,4.478313,1265.64
+Block Sort,1000000,Best,41.897248,9633.33
+Block Sort,1000000,Random,Time Limit,N/A
+Block Sort,1000000,Worst,Time Limit,N/A
+Block Sort (Alt),1000,Best,0.031651,15.93
+Block Sort (Alt),1000,Random,0.032098,15.93
+Block Sort (Alt),1000,Worst,0.033319,15.93
+Block Sort (Alt),10000,Best,0.263838,81.68
+Block Sort (Alt),10000,Random,0.21955,81.68
+Block Sort (Alt),10000,Worst,0.236225,81.68
+Block Sort (Alt),100000,Best,3.369471,1264.46
+Block Sort (Alt),100000,Random,3.641122,1264.46
+Block Sort (Alt),100000,Worst,3.278088,1264.46
+Block Sort (Alt),1000000,Best,40.154782,9625.46
+Block Sort (Alt),1000000,Random,42.217866,9625.46
+Block Sort (Alt),1000000,Worst,38.784462,9625.46
+Bubble Sort,1000,Best,0.003336,0.24
+Bubble Sort,1000,Random,0.477378,0.3
+Bubble Sort,1000,Worst,0.544824,0.3
+Bubble Sort,10000,Best,0.028729,0.24
+Bubble Sort,10000,Random,67.286233,0.3
+Bubble Sort,10000,Worst,89.857999,0.3
+Bubble Sort,100000,Best,0.084212,0.24
+Bubble Sort,100000,Random,Time Limit,N/A
+Bubble Sort,100000,Worst,Time Limit,N/A
+Bubble Sort,1000000,Best,0.827622,0.24
+Bubble Sort,1000000,Random,Time Limit,N/A
+Bubble Sort,1000000,Worst,Time Limit,N/A
+Bucket Sort,1000,Best,0.005355,19.92
+Bucket Sort,1000,Random,0.010877,19.92
+Bucket Sort,1000,Worst,0.013374,19.92
+Bucket Sort,10000,Best,0.054636,169.66
+Bucket Sort,10000,Random,0.059037,169.66
+Bucket Sort,10000,Worst,0.070865,169.66
+Bucket Sort,100000,Best,0.29947,1729.63
+Bucket Sort,100000,Random,1.200207,1729.6
+Bucket Sort,100000,Worst,1.524805,1729.6
+Bucket Sort,1000000,Best,3.723585,16344.07
+Bucket Sort,1000000,Random,Time Limit,N/A
+Bucket Sort,1000000,Worst,Time Limit,N/A
+Bucket Sort (Alt),1000,Best,0.009855,20.16
+Bucket Sort (Alt),1000,Random,0.005974,20.16
+Bucket Sort (Alt),1000,Worst,0.009528,20.16
+Bucket Sort (Alt),10000,Best,0.056002,170.58
+Bucket Sort (Alt),10000,Random,0.047587,170.58
+Bucket Sort (Alt),10000,Worst,0.058724,170.58
+Bucket Sort (Alt),100000,Best,0.278419,1732.16
+Bucket Sort (Alt),100000,Random,0.303127,1732.13
+Bucket Sort (Alt),100000,Worst,0.274414,1732.13
+Bucket Sort (Alt),1000000,Best,2.812454,16352.42
+Bucket Sort (Alt),1000000,Random,2.878749,16356.49
+Bucket Sort (Alt),1000000,Worst,2.801137,16356.52
+Cartesian Tree Sort,1000,Best,0.014309,114.05
+Cartesian Tree Sort,1000,Random,0.018638,121.64
+Cartesian Tree Sort,1000,Worst,0.016935,105.55
+Cartesian Tree Sort,10000,Best,0.05939,1106.86
+Cartesian Tree Sort,10000,Random,0.157249,1168.01
+Cartesian Tree Sort,10000,Worst,0.073521,1023.83
+Cartesian Tree Sort,100000,Best,0.366272,10942.48
+Cartesian Tree Sort,100000,Random,1.955924,11648.79
+Cartesian Tree Sort,100000,Worst,0.383954,10160.42
+Cartesian Tree Sort,1000000,Best,3.544911,110254.48
+Cartesian Tree Sort,1000000,Random,27.998892,115961.61
+Cartesian Tree Sort,1000000,Worst,3.963824,102003.92
+Cartesian Tree Sort (Alt),1000,Best,0.015832,111.16
+Cartesian Tree Sort (Alt),1000,Random,0.003282,118.75
+Cartesian Tree Sort (Alt),1000,Worst,0.017277,102.66
+Cartesian Tree Sort (Alt),10000,Best,0.052624,1103.97
+Cartesian Tree Sort (Alt),10000,Random,0.068767,1165
+Cartesian Tree Sort (Alt),10000,Worst,0.069622,1020.94
+Cartesian Tree Sort (Alt),100000,Best,0.351109,10939.59
+Cartesian Tree Sort (Alt),100000,Random,0.483529,11645.75
+Cartesian Tree Sort (Alt),100000,Worst,0.389422,10157.53
+Cartesian Tree Sort (Alt),1000000,Best,3.733491,110251.59
+Cartesian Tree Sort (Alt),1000000,Random,8.178955,115958.56
+Cartesian Tree Sort (Alt),1000000,Worst,3.993035,102001.03
+Cocktail Shaker Sort,1000,Best,0.00338,0.2
+Cocktail Shaker Sort,1000,Random,0.66271,0.32
+Cocktail Shaker Sort,1000,Worst,1.080628,0.32
+Cocktail Shaker Sort,10000,Best,0.039183,0.2
+Cocktail Shaker Sort,10000,Random,74.874379,0.32
+Cocktail Shaker Sort,10000,Worst,122.196354,0.32
+Cocktail Shaker Sort,100000,Best,0.095264,0.2
+Cocktail Shaker Sort,100000,Random,Time Limit,N/A
+Cocktail Shaker Sort,100000,Worst,Time Limit,N/A
+Cocktail Shaker Sort,1000000,Best,0.832497,0.2
+Cocktail Shaker Sort,1000000,Random,Time Limit,N/A
+Cocktail Shaker Sort,1000000,Worst,Time Limit,N/A
+Comb Sort,1000,Best,0.034678,0.29
+Comb Sort,1000,Random,0.02109,0.29
+Comb Sort,1000,Worst,0.053729,0.29
+Comb Sort,10000,Best,0.314588,0.29
+Comb Sort,10000,Random,0.442722,0.29
+Comb Sort,10000,Worst,0.334814,0.29
+Comb Sort,100000,Best,3.613136,0.29
+Comb Sort,100000,Random,5.282326,0.29
+Comb Sort,100000,Worst,4.107158,0.29
+Comb Sort,1000000,Best,46.406667,0.29
+Comb Sort,1000000,Random,65.823472,0.29
+Comb Sort,1000000,Worst,49.162818,0.29
+Counting Sort,1000,Best,0.021872,46.16
+Counting Sort,1000,Random,0.012409,46.16
+Counting Sort,1000,Worst,0.028705,46.16
+Counting Sort,10000,Best,0.079326,538.63
+Counting Sort,10000,Random,0.102589,538.63
+Counting Sort,10000,Worst,0.079472,538.63
+Counting Sort,100000,Best,0.73826,5460.93
+Counting Sort,100000,Random,0.793191,5460.93
+Counting Sort,100000,Worst,0.735237,5460.93
+Counting Sort,1000000,Best,7.049948,54679.86
+Counting Sort,1000000,Random,7.984917,54679.86
+Counting Sort,1000000,Worst,7.056303,54679.86
+Cycle Sort,1000,Best,0.231246,0.3
+Cycle Sort,1000,Random,0.969691,0.3
+Cycle Sort,1000,Worst,0.64173,0.3
+Cycle Sort,10000,Best,21.477671,0.3
+Cycle Sort,10000,Random,129.668351,0.3
+Cycle Sort,10000,Worst,67.685234,0.3
+Cycle Sort,100000,Best,Time Limit,N/A
+Cycle Sort,100000,Random,Time Limit,N/A
+Cycle Sort,100000,Worst,Time Limit,N/A
+Cycle Sort,1000000,Best,Time Limit,N/A
+Cycle Sort,1000000,Random,Time Limit,N/A
+Cycle Sort,1000000,Worst,Time Limit,N/A
+Flash Sort,1000,Best,0.0442,14.15
+Flash Sort,1000,Random,0.048598,14.12
+Flash Sort,1000,Worst,0.04505,14.09
+Flash Sort,10000,Best,0.238116,172.48
+Flash Sort,10000,Random,0.232441,172.48
+Flash Sort,10000,Worst,0.212757,172.45
+Flash Sort,100000,Best,2.379175,1754.73
+Flash Sort,100000,Random,1.795117,1754.73
+Flash Sort,100000,Worst,2.063971,1754.7
+Flash Sort,1000000,Best,23.275987,17575.14
+Flash Sort,1000000,Random,18.207275,17575.14
+Flash Sort,1000000,Worst,19.808727,17575.11
+Gnome Sort,1000,Best,0.003574,0.11
+Gnome Sort,1000,Random,0.616439,0.11
+Gnome Sort,1000,Worst,0.875193,0.11
+Gnome Sort,10000,Best,0.036946,0.11
+Gnome Sort,10000,Random,72.110455,0.11
+Gnome Sort,10000,Worst,140.081105,0.11
+Gnome Sort,100000,Best,0.107269,0.11
+Gnome Sort,100000,Random,Time Limit,N/A
+Gnome Sort,100000,Worst,Time Limit,N/A
+Gnome Sort,1000000,Best,0.867459,0.11
+Gnome Sort,1000000,Random,Time Limit,N/A
+Gnome Sort,1000000,Worst,Time Limit,N/A
+Heap Sort,1000,Best,0.034491,0.34
+Heap Sort,1000,Random,0.02893,0.34
+Heap Sort,1000,Worst,0.004541,0.34
+Heap Sort,10000,Best,0.170064,0.59
+Heap Sort,10000,Random,0.142603,0.59
+Heap Sort,10000,Worst,0.114767,0.59
+Heap Sort,100000,Best,1.956767,0.78
+Heap Sort,100000,Random,1.952374,0.78
+Heap Sort,100000,Worst,1.661576,0.78
+Heap Sort,1000000,Best,25.291993,0.96
+Heap Sort,1000000,Random,25.154608,0.96
+Heap Sort,1000000,Worst,22.805224,0.96
+Insertion Sort,1000,Best,0.002857,0.17
+Insertion Sort,1000,Random,0.227613,0.17
+Insertion Sort,1000,Worst,0.279151,0.17
+Insertion Sort,10000,Best,0.045647,0.17
+Insertion Sort,10000,Random,24.619791,0.17
+Insertion Sort,10000,Worst,45.240886,0.17
+Insertion Sort,100000,Best,0.163547,0.17
+Insertion Sort,100000,Random,Time Limit,N/A
+Insertion Sort,100000,Worst,Time Limit,N/A
+Insertion Sort,1000000,Best,1.281982,0.17
+Insertion Sort,1000000,Random,Time Limit,N/A
+Insertion Sort,1000000,Worst,Time Limit,N/A
+Intro Sort,1000,Best,0.031434,0.95
+Intro Sort,1000,Random,0.024093,1.45
+Intro Sort,1000,Worst,0.013667,1.41
+Intro Sort,10000,Best,0.121661,1.26
+Intro Sort,10000,Random,0.160252,1.88
+Intro Sort,10000,Worst,0.289894,2.32
+Intro Sort,100000,Best,1.494208,1.6
+Intro Sort,100000,Random,2.137123,2.7
+Intro Sort,100000,Worst,3.538925,3.31
+Intro Sort,1000000,Best,17.726442,1.88
+Intro Sort,1000000,Random,25.048824,3.2
+Intro Sort,1000000,Worst,44.648956,5.41
+Merge Sort,1000,Best,0.004655,16.77
+Merge Sort,1000,Random,0.025763,16.77
+Merge Sort,1000,Worst,0.007773,16.77
+Merge Sort,10000,Best,0.189294,157.99
+Merge Sort,10000,Random,0.188956,157.99
+Merge Sort,10000,Worst,0.17709,157.99
+Merge Sort,100000,Best,2.466954,1564.67
+Merge Sort,100000,Random,2.53477,1564.67
+Merge Sort,100000,Worst,2.340816,1564.67
+Merge Sort,1000000,Best,33.760907,15627.6
+Merge Sort,1000000,Random,33.877867,15627.6
+Merge Sort,1000000,Worst,31.553159,15627.6
+Merge-Insertion Sort,1000,Best,0.022997,84.2
+Merge-Insertion Sort,1000,Random,0.009576,84.2
+Merge-Insertion Sort,1000,Worst,0.014159,84.16
+Merge-Insertion Sort,10000,Best,0.186546,804.03
+Merge-Insertion Sort,10000,Random,0.16455,804.03
+Merge-Insertion Sort,10000,Worst,0.144195,804
+Merge-Insertion Sort,100000,Best,2.100454,8048.66
+Merge-Insertion Sort,100000,Random,2.687506,8048.66
+Merge-Insertion Sort,100000,Worst,2.447804,8048.63
+Merge-Insertion Sort,1000000,Best,59.029656,79154.05
+Merge-Insertion Sort,1000000,Random,109.377508,79154.05
+Merge-Insertion Sort,1000000,Worst,103.53617,79154.02
+Merge-Insertion Sort (Alt),1000,Best,0.019625,84.19
+Merge-Insertion Sort (Alt),1000,Random,0.002654,84.19
+Merge-Insertion Sort (Alt),1000,Worst,0.013828,84.16
+Merge-Insertion Sort (Alt),10000,Best,0.128534,804.03
+Merge-Insertion Sort (Alt),10000,Random,0.098125,804.03
+Merge-Insertion Sort (Alt),10000,Worst,0.086936,804
+Merge-Insertion Sort (Alt),100000,Best,1.352852,8048.66
+Merge-Insertion Sort (Alt),100000,Random,1.850568,8048.66
+Merge-Insertion Sort (Alt),100000,Worst,1.745647,8048.63
+Merge-Insertion Sort (Alt),1000000,Best,50.407011,79154.05
+Merge-Insertion Sort (Alt),1000000,Random,99.43849,79154.05
+Merge-Insertion Sort (Alt),1000000,Worst,92.583051,79154.02
+Pairwise Sorting Network,1000,Best,0.057994,10.16
+Pairwise Sorting Network,1000,Random,0.05892,10.16
+Pairwise Sorting Network,1000,Worst,0.072724,10.16
+Pairwise Sorting Network,10000,Best,1.133162,178.57
+Pairwise Sorting Network,10000,Random,1.457106,178.57
+Pairwise Sorting Network,10000,Worst,1.260144,178.57
+Pairwise Sorting Network,100000,Best,12.89289,1267.45
+Pairwise Sorting Network,100000,Random,18.780923,1267.45
+Pairwise Sorting Network,100000,Worst,14.777799,1267.45
+Pairwise Sorting Network,1000000,Best,142.697812,9596.23
+Pairwise Sorting Network,1000000,Random,Time Limit,N/A
+Pairwise Sorting Network,1000000,Worst,162.702578,9596.23
+Pancake Sort,1000,Best,0.18044,8.02
+Pancake Sort,1000,Random,0.201265,8.02
+Pancake Sort,1000,Worst,0.156877,8.01
+Pancake Sort,10000,Best,18.599576,78.33
+Pancake Sort,10000,Random,29.616358,78.33
+Pancake Sort,10000,Worst,18.666231,78.32
+Pancake Sort,100000,Best,Time Limit,N/A
+Pancake Sort,100000,Random,Time Limit,N/A
+Pancake Sort,100000,Worst,Time Limit,N/A
+Pancake Sort,1000000,Best,Time Limit,N/A
+Pancake Sort,1000000,Random,Time Limit,N/A
+Pancake Sort,1000000,Worst,Time Limit,N/A
+Patience Sort,1000,Best,0.037629,122.02
+Patience Sort,1000,Random,0.011531,33.83
+Patience Sort,1000,Worst,0.022574,25.39
+Patience Sort,10000,Best,0.271627,1259.88
+Patience Sort,10000,Random,0.062144,272.65
+Patience Sort,10000,Worst,0.076166,244.77
+Patience Sort,100000,Best,3.573279,12713.47
+Patience Sort,100000,Random,1.329233,2489.08
+Patience Sort,100000,Worst,0.428582,2345.95
+Patience Sort,1000000,Best,45.582631,126301.38
+Patience Sort,1000000,Random,20.721078,24634.85
+Patience Sort,1000000,Worst,4.028906,24314.2
+Patience Sort (Alt),1000,Best,0.020184,193.29
+Patience Sort (Alt),1000,Random,0.000854,33.44
+Patience Sort (Alt),1000,Worst,0.00081,25.41
+Patience Sort (Alt),10000,Best,0.085366,2021.96
+Patience Sort (Alt),10000,Random,0.023901,265.28
+Patience Sort (Alt),10000,Worst,0.003188,244.79
+Patience Sort (Alt),100000,Best,0.735975,20363.64
+Patience Sort (Alt),100000,Random,0.159142,2455.15
+Patience Sort (Alt),100000,Worst,0.026268,2345.98
+Patience Sort (Alt),1000000,Best,8.338553,202924.21
+Patience Sort (Alt),1000000,Random,1.764009,24515.58
+Patience Sort (Alt),1000000,Worst,0.118638,24314.23
+Pigeonhole Sort,1000,Best,0.003761,32.02
+Pigeonhole Sort,1000,Random,0.00621,32.02
+Pigeonhole Sort,1000,Worst,0.009766,32.02
+Pigeonhole Sort,10000,Best,0.050382,383.37
+Pigeonhole Sort,10000,Random,0.048106,383.37
+Pigeonhole Sort,10000,Worst,0.053809,383.37
+Pigeonhole Sort,100000,Best,0.231399,3898.45
+Pigeonhole Sort,100000,Random,0.271954,3898.45
+Pigeonhole Sort,100000,Worst,0.239576,3898.45
+Pigeonhole Sort,1000000,Best,2.31608,39054.59
+Pigeonhole Sort,1000000,Random,2.316949,39054.59
+Pigeonhole Sort,1000000,Worst,2.314109,39054.59
+Quick Sort,1000,Best,0.03555,0.84
+Quick Sort,1000,Random,0.031201,1.22
+Quick Sort,1000,Worst,0.008147,0.97
+Quick Sort,10000,Best,0.144189,1.16
+Quick Sort,10000,Random,0.19823,2.22
+Quick Sort,10000,Worst,0.161744,1.34
+Quick Sort,100000,Best,1.582874,1.41
+Quick Sort,100000,Random,2.174241,2.72
+Quick Sort,100000,Worst,1.68236,1.59
+Quick Sort,1000000,Best,18.061555,1.66
+Quick Sort,1000000,Random,25.320691,3.16
+Quick Sort,1000000,Worst,19.135163,1.97
+Radix Sort,1000,Best,0.024554,24.67
+Radix Sort,1000,Random,0.035847,24.67
+Radix Sort,1000,Worst,0.017725,24.67
+Radix Sort,10000,Best,0.241203,239.83
+Radix Sort,10000,Random,0.232782,239.83
+Radix Sort,10000,Worst,0.249617,239.83
+Radix Sort,100000,Best,2.375807,2345.11
+Radix Sort,100000,Random,2.472836,2345.11
+Radix Sort,100000,Worst,2.362868,2345.11
+Radix Sort,1000000,Best,29.204802,23876.11
+Radix Sort,1000000,Random,30.043334,23876.11
+Radix Sort,1000000,Worst,28.672918,23876.11
+Selection Sort,1000,Best,0.219398,0.3
+Selection Sort,1000,Random,0.188534,0.3
+Selection Sort,1000,Worst,0.189085,0.3
+Selection Sort,10000,Best,19.976144,0.3
+Selection Sort,10000,Random,20.155566,0.3
+Selection Sort,10000,Worst,20.263707,0.3
+Selection Sort,100000,Best,Time Limit,N/A
+Selection Sort,100000,Random,Time Limit,N/A
+Selection Sort,100000,Worst,Time Limit,N/A
+Selection Sort,1000000,Best,Time Limit,N/A
+Selection Sort,1000000,Random,Time Limit,N/A
+Selection Sort,1000000,Worst,Time Limit,N/A
+Shell Sort,1000,Best,0.015077,0.2
+Shell Sort,1000,Random,0.046562,0.23
+Shell Sort,1000,Worst,0.010343,0.23
+Shell Sort,10000,Best,0.125557,0.23
+Shell Sort,10000,Random,0.363228,0.26
+Shell Sort,10000,Worst,0.237166,0.26
+Shell Sort,100000,Best,1.25244,0.23
+Shell Sort,100000,Random,6.559131,0.26
+Shell Sort,100000,Worst,2.713403,0.26
+Shell Sort,1000000,Best,14.865808,0.23
+Shell Sort,1000000,Random,102.167266,0.26
+Shell Sort,1000000,Worst,29.383695,0.26
+Smooth Sort,1000,Best,0.024131,1.14
+Smooth Sort,1000,Random,0.053349,1.3
+Smooth Sort,1000,Worst,0.055728,1.3
+Smooth Sort,10000,Best,0.066582,1.42
+Smooth Sort,10000,Random,0.338006,1.58
+Smooth Sort,10000,Worst,0.264992,1.58
+Smooth Sort,100000,Best,0.597911,1.64
+Smooth Sort,100000,Random,3.88375,1.8
+Smooth Sort,100000,Worst,3.006784,1.8
+Smooth Sort,1000000,Best,5.615325,1.8
+Smooth Sort,1000000,Random,44.244948,1.95
+Smooth Sort,1000000,Worst,33.645536,1.95
+Strand Sort,1000,Best,0.003162,16.7
+Strand Sort,1000,Random,0.062154,31.43
+Strand Sort,1000,Worst,0.308203,31.73
+Strand Sort,10000,Best,0.016693,161.54
+Strand Sort,10000,Random,1.458898,312.3
+Strand Sort,10000,Worst,36.705418,312.98
+Strand Sort,100000,Best,0.98068,1563.7
+Strand Sort,100000,Random,50.368573,3123.97
+Strand Sort,100000,Worst,Time Limit,N/A
+Strand Sort,1000000,Best,102.6343,16063.45
+Strand Sort,1000000,Random,Time Limit,N/A
+Strand Sort,1000000,Worst,Time Limit,N/A
+Tim Sort (Simplified),1000,Best,0.023201,8.36
+Tim Sort (Simplified),1000,Random,0.047777,8.36
+Tim Sort (Simplified),1000,Worst,0.044403,8.36
+Tim Sort (Simplified),10000,Best,0.134933,78.67
+Tim Sort (Simplified),10000,Random,0.299309,78.67
+Tim Sort (Simplified),10000,Worst,0.420427,78.67
+Tim Sort (Simplified),100000,Best,1.583408,781.79
+Tim Sort (Simplified),100000,Random,3.255082,781.79
+Tim Sort (Simplified),100000,Worst,4.701388,781.79
+Tim Sort (Simplified),1000000,Best,20.261315,7813.04
+Tim Sort (Simplified),1000000,Random,34.496658,7813.04
+Tim Sort (Simplified),1000000,Worst,50.740203,7813.04
+Tim Sort (Built-in),1000,Best,4.00E-05,0.05
+Tim Sort (Built-in),1000,Random,8.60E-05,3.88
+Tim Sort (Built-in),1000,Worst,0.000182,3.9
+Tim Sort (Built-in),10000,Best,0.000147,0.05
+Tim Sort (Built-in),10000,Random,0.003074,39.07
+Tim Sort (Built-in),10000,Worst,0.001487,39.09
+Tim Sort (Built-in),100000,Best,0.001403,0.05
+Tim Sort (Built-in),100000,Random,0.040925,390.49
+Tim Sort (Built-in),100000,Worst,0.010189,390.49
+Tim Sort (Built-in),1000000,Best,0.008099,0.05
+Tim Sort (Built-in),1000000,Random,0.21938,3906.04
+Tim Sort (Built-in),1000000,Worst,0.046038,3906.04
+Tournament Sort,1000,Best,0.004956,16.54
+Tournament Sort,1000,Random,0.027203,16.54
+Tournament Sort,1000,Worst,0.019833,16.54
+Tournament Sort,10000,Best,0.141001,161.38
+Tournament Sort,10000,Random,0.146044,161.38
+Tournament Sort,10000,Worst,0.139521,161.38
+Tournament Sort,100000,Best,1.544081,1563.54
+Tournament Sort,100000,Random,1.777726,1563.54
+Tournament Sort,100000,Worst,2.076674,1563.54
+Tournament Sort,1000000,Best,20.209679,16063.29
+Tournament Sort,1000000,Random,22.521013,16063.29
+Tournament Sort,1000000,Worst,27.377213,16063.29
+Tournament Sort (Alt),1000,Best,0.000906,16.48
+Tournament Sort (Alt),1000,Random,0.001018,16.48
+Tournament Sort (Alt),1000,Worst,0.00018,16.48
+Tournament Sort (Alt),10000,Best,0.00996,161.33
+Tournament Sort (Alt),10000,Random,0.012747,161.33
+Tournament Sort (Alt),10000,Worst,0.009616,161.33
+Tournament Sort (Alt),100000,Best,0.02462,1563.48
+Tournament Sort (Alt),100000,Random,0.080062,1563.48
+Tournament Sort (Alt),100000,Worst,0.047629,1563.48
+Tournament Sort (Alt),1000000,Best,0.331914,16063.23
+Tournament Sort (Alt),1000000,Random,1.189695,16063.23
+Tournament Sort (Alt),1000000,Worst,0.268154,16063.23
+Tree Sort,1000,Best,0.069275,102.91
+Tree Sort,1000,Random,0.0131,89.32
+Tree Sort,1000,Worst,0.125052,88.95
+Tree Sort,10000,Best,5.233522,1054.76
+Tree Sort,10000,Random,0.060716,862.95
+Tree Sort,10000,Worst,8.064961,862.38
+Tree Sort,100000,Best,Recursion Limit,N/A
+Tree Sort,100000,Random,0.474426,8597.51
+Tree Sort,100000,Worst,Recursion Limit,N/A
+Tree Sort,1000000,Best,Recursion Limit,N/A
+Tree Sort,1000000,Random,6.569438,85941.41
+Tree Sort,1000000,Worst,Recursion Limit,N/A
