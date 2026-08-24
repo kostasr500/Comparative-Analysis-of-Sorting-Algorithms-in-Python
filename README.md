@@ -1,78 +1,51 @@
 # Comparative Analysis of Sorting Algorithms in Python
 
-[![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+This repository holds the code behind my thesis, where I benchmarked classic sorting algorithms in Python and compared their real-world runtime and memory behavior across different input sizes and data distributions (random, sorted, reversed, etc.).
 
-An empirical benchmarking and performance evaluation suite for sorting algorithms in Python, developed alongside an extensive **60+ page research thesis**.
+The goal wasn't just to implement the algorithms, but to actually measure how they perform under different conditions and see how well that matches the theoretical time complexity everyone learns in textbooks.
 
-This project implements, tests, and profiles multiple sorting algorithms across varying dataset sizes and input distributions (random, sorted, reverse, nearly sorted) to evaluate practical execution behavior against theoretical bounds.
+## Algorithms covered
 
----
+- **Comparison-based:** Bubble Sort, Selection Sort, Insertion Sort, Shell Sort
+- **Divide & Conquer:** Merge Sort, Quick Sort
+- **Heap-based:** Heap Sort
+- **Non-comparison:** Counting Sort, Radix Sort
 
-## 📄 Comprehensive Thesis & Research
+## Repository structure
 
-For an in-depth theoretical breakdown, mathematical proofs, experimental methodology, and detailed graphical analysis, refer to the included **Thesis document**:
+```
+.
+├── sort.py                          # Main script: implementations of all sorting algorithms + benchmarking (time & memory)
+├── merge_data.py                    # Combines the raw benchmark results into a single dataset
+├── charts.py                        # Generates comparison plots from the merged data
+└── Πτυχιακή_Ρομπόκας - 2.pdf        # Full thesis document
+```
 
-* 📖 **[View the Full Thesis Document (PDF)](./thesis.pdf)** *(ή βάλε το ακριβές όνομα του αρχείου σου)*
-* **Scope:** 50+ pages covering algorithm classification, runtime profiling, hardware impact, and comparative benchmarking results.
+## How to run it
 
----
+**1. Requirements**
 
-## 📌 Features & Implemented Algorithms
-
-The benchmark suite includes implementations and performance profiling for:
-
-* **Comparison-based:** Bubble Sort, Selection Sort, Insertion Sort, Shell Sort
-* **Divide & Conquer:** Merge Sort, Quick Sort
-* **Heap-based:** Heap Sort
-* **Non-comparison:** Counting Sort, Radix Sort
-
----
-
-## 🚀 How to Run
-
-### 1. Requirements
-Ensure Python 3 is installed. If you plan to generate plots using the auxiliary scripts, install `matplotlib`:
+You need Python 3. If you also want to generate the plots, install matplotlib:
 
 ```bash
 pip install matplotlib
 ```
 
-### 2. Run the Main Benchmark
-The primary engine is `sort.py`. Run it to execute all sorting algorithms and record timing metrics:
+**2. Run the benchmark**
+
+`sort.py` is the main script — it runs the sorting algorithms and records timing (and memory, where applicable):
 
 ```bash
 python sort.py
 ```
 
-### 3. Auxiliary Tools (Data Merging & Chart Generation)
-If you want to aggregate separate benchmark outputs and generate comparative visualization plots:
+**3. Merge results and build charts**
 
 ```bash
-# Merge raw benchmark data
 python merge_data.py
-
-# Generate comparison plots and charts
 python charts.py
 ```
 
----
+## Thesis
 
-## 📁 Repository Structure
-
-```text
-.
-├── sort.py           # Main script: Sorting implementations & benchmarking engine
-├── merge_data.py     # Auxiliary script: Aggregates raw benchmark metrics
-├── charts.py         # Auxiliary script: Generates performance graphs
-├── thesis.pdf        # Complete 50+ page research thesis and analysis
-└── README.md         # Project documentation
-```
-
----
-
-## 🛠️ Skills & Technologies
-
-* **Programming:** Python 3
-* **Algorithms & Data Structures:** Sorting algorithms, algorithmic complexity, profiling.
-* **Research & Analysis:** Empirical benchmarking, experimental evaluation, technical writing.
+The full write-up, including the methodology behind the benchmarks, the theoretical background for each algorithm, and the analysis of the results, is in **[`Πτυχιακή_Ρομπόκας - 2.pdf`](./Πτυχιακή_Ρομπόκας%20-%202.pdf)**.
