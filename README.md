@@ -6,20 +6,24 @@ The goal wasn't just to implement the algorithms, but to actually measure how th
 
 ## Algorithms covered
 
-- **Comparison-based:** Bubble Sort, Selection Sort, Insertion Sort, Shell Sort
-- **Divide & Conquer:** Merge Sort, Quick Sort
-- **Heap-based:** Heap Sort
-- **Non-comparison:** Counting Sort, Radix Sort
+The benchmark suite implements 37 sorting algorithms in total, including several alternative/simplified variants of the same algorithm for comparison:
+
+- **Comparison-based:** Bubble Sort, Selection Sort, Insertion Sort, Shell Sort, Gnome Sort, Cocktail Shaker Sort, Comb Sort, Stooge Sort, Pancake Sort, Cycle Sort
+- **Divide & Conquer:** Merge Sort, Quick Sort, Merge-Insertion Sort (+ alternative implementation)
+- **Heap / tree-based:** Heap Sort, Smooth Sort, Tree Sort, Cartesian Tree Sort (+ alternative implementation), Tournament Sort (+ alternative implementation)
+- **Hybrid:** Intro Sort, Tim Sort, Tim Sort (simplified)
+- **Non-comparison / distribution-based:** Counting Sort, Radix Sort, Bucket Sort (+ alternative implementation), Pigeonhole Sort, Flash Sort
+- **Network-based:** Bitonic Sort, Pairwise Sorting Network
+- **Other / specialized:** Strand Sort, Patience Sort (+ alternative implementation), Block Sort (+ alternative implementation)
 
 ## Repository structure
 
 ```
 .
 ├── sort.py                          # Main script: implementations of all sorting algorithms + benchmarking (time & memory)
-├── merge_data.py                    # Combines the raw benchmark results into a single csv dataset
+├── merge_data.py                    # Combines the raw benchmark results into a single dataset
 ├── charts.py                        # Generates comparison plots from the merged data
-├── final_dataset.csv                # Exported Dataset of experiment
-└── Thesis_GR.pdf                    # Full thesis document
+└── Πτυχιακή_Ρομπόκας - 2.pdf        # Full thesis document
 ```
 
 ## How to run it
@@ -34,7 +38,7 @@ pip install matplotlib
 
 **2. Run the benchmark**
 
-`sort.py` is the main script — it runs the sorting algorithms and records timing (and memory, where applicable):
+`sort.py` is the main script — it presents a menu of all 37 algorithms (plus a "run all" option) and records timing (and memory, where applicable):
 
 ```bash
 python sort.py
@@ -50,3 +54,4 @@ python charts.py
 ## Thesis
 
 The full write-up, including the methodology behind the benchmarks, the theoretical background for each algorithm, and the analysis of the results, is in **[`Thesis_GR.pdf`](./Thesis_GR.pdf)**.
+
