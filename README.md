@@ -6,14 +6,14 @@ The goal wasn't just to implement the algorithms, but to actually measure how th
 
 ## Algorithms covered
 
-The benchmark suite implements 37 sorting algorithm implementations in total (30 pure Python implementations + 7 C-accelerated / alternative variants):
+The benchmark suite implements 37 sorting algorithm implementations in total (30 implementations + 7 Pure Python / Alternative variants):
 
 - **Simple Comparison Sorts:** Bubble Sort, Selection Sort, Insertion Sort, Gnome Sort, Cocktail Shaker Sort, Cycle Sort, Pancake Sort, Stooge Sort
 - **Advanced Comparison Sorts:** Merge Sort, Quick Sort, Heap Sort, Shell Sort, Comb Sort, Smooth Sort, Strand Sort, Tree Sort, Cartesian Tree Sort, Tournament Sort, Patience Sort
 - **Sorting Networks:** Bitonic Sort, Pairwise Sorting Network
 - **Hybrid & Composite Sorts:** Simplified Tim Sort, Intro Sort, Block Sort, Merge-Insertion Sort
 - **Non-Comparison Sorts:** Counting Sort, Radix Sort, Bucket Sort, Pigeonhole Sort, Flash Sort
-- **C-Accelerated Variants (Alt):** Block Sort (Alt), Bucket Sort (Alt), Cartesian Tree Sort (Alt), Merge-Insertion Sort (Alt), Patience Sort (Alt), Tournament Sort (Alt), Tim Sort (Built-in)
+- **Pure Python Versions (Alt):** Block Sort (Alt), Bucket Sort (Alt), Cartesian Tree Sort (Alt), Merge-Insertion Sort (Alt), Patience Sort (Alt), Tournament Sort (Alt), Tim Sort (Built-in)
 
 ## Repository structure
 
