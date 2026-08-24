@@ -18,6 +18,7 @@ The goal wasn't just to implement the algorithms, but to actually measure how th
 ├── sort.py                          # Main script: implementations of all sorting algorithms + benchmarking (time & memory)
 ├── merge_data.py                    # Combines the raw benchmark results into a single dataset
 ├── charts.py                        # Generates comparison plots from the merged data
+├── final_dataset.csv                # Exported Dataset of experiment
 └── Πτυχιακή_Ρομπόκας - 2.pdf        # Full thesis document
 ```
 
@@ -48,4 +49,4 @@ python charts.py
 
 ## Thesis
 
-The full write-up, including the methodology behind the benchmarks, the theoretical background for each algorithm, and the analysis of the results, is in **[`Πτυχιακή_Ρομπόκας - 2.pdf`](./Πτυχιακή_Ρομπόκας%20-%202.pdf)**.
+The full write-up, including the methodology behind the benchmarks, the theoretical background for each algorithm, and the analysis of the results, is in **[`Thesis_GR.pdf`](./Thesis_GR.pdf)**.
