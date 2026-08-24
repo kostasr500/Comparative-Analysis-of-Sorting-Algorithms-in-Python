@@ -22,7 +22,8 @@ The benchmark suite implements 37 sorting algorithm implementations in total (30
 ├── sort.py                          # Main script: implementations of all sorting algorithms + benchmarking (time & memory)
 ├── merge_data.py                    # Combines the raw benchmark results into a single dataset
 ├── charts.py                        # Generates comparison plots from the merged data
-└── Πτυχιακή_Ρομπόκας - 2.pdf        # Full thesis document
+├── final_dataset.csv                # Exported stats from experiment
+└── Thesis_GR.pdf                    # Full thesis document
 ```
 
 ## How to run it
