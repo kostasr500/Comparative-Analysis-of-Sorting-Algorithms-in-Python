@@ -33,17 +33,24 @@ The benchmark suite implements 37 sorting algorithm implementations in total (30
 * **OS:** Linux, macOS, or **WSL2** (Windows Subsystem for Linux).
   > **Note:** The benchmark uses POSIX signals (`signal.SIGALRM`) for execution timeouts, which are not supported natively on Windows.
 * **Python:** Python 3.10+ (benchmarks were conducted on Python 3.13).
-* **Dependencies:** Only `matplotlib` is required (for generating the charts/graphs). All sorting algorithms and memory/timing benchmarks use the Python standard library (`time`, `tracemalloc`, `heapq`, `bisect`, `signal`).
+* **Dependencies:** Only `matplotlib` is required (for generating charts). All sorting algorithms and memory/timing benchmarks use the Python standard library (`time`, `tracemalloc`, `heapq`, `bisect`, `signal`).
 
-### 2. Setup & Dependencies
+### 2. Setup
 
 Install matplotlib to generate charts:
 
 ```bash
 pip install matplotlib
+```
 
-**3. Merge results and build charts**
+### 3. Run Benchmark & Generate Charts
 
+Run the sorting benchmark suite:
+```bash
+python sort.py
+```
+
+Merge the raw data and generate comparison plots:
 ```bash
 python merge_data.py
 python charts.py
