@@ -16,7 +16,7 @@ The goal wasn't just to implement the algorithms, but to actually measure how th
 ```
 .
 ├── sort.py                          # Main script: implementations of all sorting algorithms + benchmarking (time & memory)
-├── merge_data.py                    # Combines the raw benchmark results into a single dataset
+├── merge_data.py                    # Combines the raw benchmark results into a single csv dataset
 ├── charts.py                        # Generates comparison plots from the merged data
 ├── final_dataset.csv                # Exported Dataset of experiment
 └── Thesis_GR.pdf                    # Full thesis document
