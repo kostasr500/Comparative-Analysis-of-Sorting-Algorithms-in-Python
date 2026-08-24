@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/Language-Python%203-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An empirical benchmarking and performance evaluation suite for sorting algorithms in Python, developed alongside an extensive **50+ page research thesis**.
+An empirical benchmarking and performance evaluation suite for sorting algorithms in Python, developed alongside an extensive **60+ page research thesis**.
 
 This project implements, tests, and profiles multiple sorting algorithms across varying dataset sizes and input distributions (random, sorted, reverse, nearly sorted) to evaluate practical execution behavior against theoretical bounds.
 
