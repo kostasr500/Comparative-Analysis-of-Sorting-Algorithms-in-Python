@@ -19,7 +19,7 @@ The goal wasn't just to implement the algorithms, but to actually measure how th
 ├── merge_data.py                    # Combines the raw benchmark results into a single dataset
 ├── charts.py                        # Generates comparison plots from the merged data
 ├── final_dataset.csv                # Exported Dataset of experiment
-└── Πτυχιακή_Ρομπόκας - 2.pdf        # Full thesis document
+└── Thesis_GR.pdf                    # Full thesis document
 ```
 
 ## How to run it
